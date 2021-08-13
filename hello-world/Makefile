@@ -1,4 +1,5 @@
 CC=g++
+FILES=./src/*
 
-all: hello.hpp hello.cpp
-	$(CC) -o hello hello.hpp hello.cpp -I.
+all: $(FILES)
+	$(CC) -o hello $(FILES) -I ./include
