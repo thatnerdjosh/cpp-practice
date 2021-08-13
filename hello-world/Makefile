@@ -1,4 +1,4 @@
 CC=g++
 
-all: hello.cpp
-	$(CC) -o hello hello.cpp -I.
+all: hello.hpp hello.cpp
+	$(CC) -o hello hello.hpp hello.cpp -I.
